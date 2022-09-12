@@ -19,6 +19,18 @@
 #![deny(non_upper_case_globals)]
 #![deny(unused_results)]
 #![deny(missing_docs)]
+
+<nav th:fragment="navigation">
+    <a href="/cheese">List</a> |
+    <a href="/cheese/add">Add</a> |
+    <a href="/cheese/remove">Remove</a>
+</nav>
+        "command": "gpp-compiler:tree-gdb"
+      }
+    ]
+  }
+}
+
 #![cfg_attr(not(feature = "std"), no_std)]
 
 #[macro_use]
